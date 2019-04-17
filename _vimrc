@@ -63,3 +63,7 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+" Commands
+" insert mode でjjと入力したときにescとする
+inoremap jj <Esc>
